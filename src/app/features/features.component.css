@@ -1,0 +1,14 @@
+#feature-heading{
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.features-subheading{
+    font-weight: 900;
+}
+
+button{
+    width: 15rem;
+    height: 4rem;
+    border-radius:40px;
+}

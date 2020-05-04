@@ -1,0 +1,11 @@
+.checked {
+    color: yellow;
+    margin-right: 5px;
+  } 
+
+  .btn-employee{
+    background-color: #f97e4c; 
+    border-radius:50px; 
+    color: white;
+    font-weight: 900;
+  }
