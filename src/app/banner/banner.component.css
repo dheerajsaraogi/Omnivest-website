@@ -1,0 +1,55 @@
+.gradient{
+
+    background-image: linear-gradient(to top,#9ff0da33,rgba(192, 243, 229, 0.1),#fff);
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    letter-spacing: 2px;
+}
+
+.wave{
+    position: absolute;
+    height: 35%; 
+    overflow: hidden;
+    bottom: -30.4%;
+    /* top: 100%; */
+    width: 100%;
+    
+}
+
+input{
+    /* border: 1px solid grey; */
+    border: 0;
+    border-radius: 40px;
+    padding:25px;
+    width: 75%;
+    }
+
+button{
+    margin: 1.25% 0 0 -37%;
+    border-radius: 40px;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    border: 0;
+    width: 35%;
+    height: 80%;
+}
+
+.wave-content{
+    position: absolute;
+    width: 100%;
+}
+
+p{
+    font-size: 20px;
+    line-height: 40px;
+}

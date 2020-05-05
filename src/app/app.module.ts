@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FeaturesComponent } from './features/features.component';
 import { EmployeesComponent } from './employees/employees.component';
+import { FooterComponent } from './footer/footer.component';
+import { ServiceComponentComponent } from './service-component/service-component.component';
+import { BannerComponent } from './banner/banner.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FeaturesComponent,
-    EmployeesComponent
+    EmployeesComponent,
+    FooterComponent,
+    ServiceComponentComponent,
+    BannerComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,
