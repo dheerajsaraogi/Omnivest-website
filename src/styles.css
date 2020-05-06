@@ -18,3 +18,8 @@ h2{
 .orange{
     color:#f97e4c;
 }
+
+.checked {
+    color: yellow;
+    margin-right: 5px;
+  } 
