@@ -1,12 +1,15 @@
-.footer{
-    padding-top: 100px;
-}
+
 
 
 button{
     border-radius: 30px;
     font-weight: 900;
-    
+    padding: 0 60px 0 60px;
+    background-color: #0acc94;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 10%;
+    padding: 18px 65px 18px 65px;
 }
 
 .footer-heading{
@@ -32,4 +35,16 @@ hr{
 
 .list li:first-child{
     font-weight: 900;
+}
+
+.social{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 25px;
+    margin-top: 25px;
+    font-size: 35px;
+    width: 55px;
+    height: 55px;
 }

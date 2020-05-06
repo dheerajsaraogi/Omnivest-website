@@ -17,9 +17,8 @@ h1{
 
 .wave{
     position: absolute;
-    height: 35%; 
+    height: 75%; 
     overflow: hidden;
-    /* bottom: -25.2%; */
     bottom: 0;
     top: 100%;
     width: 100%;
@@ -48,6 +47,7 @@ button{
 .wave-content{
     position: absolute;
     width: 100%;
+    
 }
 
 p{
