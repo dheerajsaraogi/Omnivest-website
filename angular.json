@@ -118,8 +118,13 @@
               "devServerTarget": "Omnivest-website:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Omnivest-website"
 }

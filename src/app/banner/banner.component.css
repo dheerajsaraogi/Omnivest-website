@@ -19,7 +19,7 @@ h1{
     position: absolute;
     height: 75%; 
     overflow: hidden;
-    bottom: 0;
+    bottom: 0%;
     top: 100%;
     width: 100%;
     
@@ -34,14 +34,14 @@ input{
     }
 
 button{
-    margin: 1.25% 0 0 -37%;
     border-radius: 40px;
     background-color: orangered;
     color: white;
     font-weight: 900;
     border: 0;
-    width: 35%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
+    padding:15px 25px;
 }
 
 .wave-content{

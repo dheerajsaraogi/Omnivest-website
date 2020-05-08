@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
-body{
+html,body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body p{
@@ -23,3 +24,4 @@ h2{
     color: yellow;
     margin-right: 5px;
   } 
+

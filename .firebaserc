@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "omnivest-88b48"
+  },
+  "targets": {
+    "omnivest-88b48": {
+      "hosting": {
+        "Omnivest-website": [
+          "omnivest-88b48"
+        ]
+      }
+    }
+  }
+}

@@ -48,3 +48,24 @@ hr{
     width: 55px;
     height: 55px;
 }
+
+.btn-subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 576px)
+{
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .center h2{
+        font-size: 3rem;
+        width: 100vw !important;
+    }
+}
