@@ -17,7 +17,7 @@ h1{
 
 .wave{
     position: absolute;
-    height: 75%; 
+    height: 55%; 
     overflow: hidden;
     bottom: 0%;
     top: 100%;
@@ -53,4 +53,56 @@ button{
 p{
     font-size: 20px;
     line-height: 40px;
+}
+
+@media only screen and (max-width: 576px){
+    h1{
+        font-size: 50px !important;
+        text-align: center;
+    }
+
+    .banner p{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    .wave{
+        height: 85%;
+    }
+}
+
+@media only screen and (min-width: 1300px)
+{
+    .wave{
+        height: 55%;
+    }
+}
+
+@media only screen and (min-width: 576px)
+{
+    .banner-subheading{
+        align-items: flex-end !important;        
+    }
+
+    .banner-subheading h2{
+        text-align: right !important; 
+
+    }
+
+    .banner-subheading p{
+        text-align: left !important;
+    }
+
+    .banner-employee{
+        justify-content: left !important;
+    }
+
+    .mail-container{
+        justify-content: left !important;
+    }
+    .mail-container > div{
+        right: 28% !important;
+    }
 }
