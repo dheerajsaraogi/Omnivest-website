@@ -23,3 +23,29 @@ button{
     background-color: orange;
     border-radius: 50%;
 }
+
+@media only screen and (max-width: 768px)
+{
+    .heading h2{
+        font-size: 60px;
+    }
+
+    .center{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+
+    .header{
+        display: flex;
+        flex-direction: row-reverse !important;
+        justify-content:space-between !important;
+    }
+
+    .header h2{
+        margin-right: 25px;
+        line-height:40px;
+    }
+}
