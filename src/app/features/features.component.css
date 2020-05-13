@@ -11,16 +11,15 @@ button{
     width: 15rem;
     height: 4rem;
     border-radius:40px;
-    color: blue;
-    background-color: white;
-    border: 1px solid orange ;
+    color: white;
+    background-color:  #f97e4c;
 }
 
 .feature{
     padding: 15px 20px;
     font-size: 25px;
     color: white;
-    background-color: orange;
+    background-color: #f97e4c;
     border-radius: 50%;
     margin: auto;
 }
